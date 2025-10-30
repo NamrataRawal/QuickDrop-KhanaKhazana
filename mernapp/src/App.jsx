@@ -1,10 +1,22 @@
 import './App.css'
+import Home from './screens/Home'
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
- 
-
   return (
-    <div className='fs-1'>Shree ganeshaye namaha..</div>
+    <Router>
+      <div>
+         <Routes>
+          <Route exact path="/" element={<Home/>}/>
+         </Routes>
+      </div>
+    </Router>
   )
 }
 
