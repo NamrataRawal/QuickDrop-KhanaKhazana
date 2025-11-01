@@ -1,12 +1,12 @@
+
 import './App.css'
 import Home from './screens/Home'
-import React from "react";
 import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
 } from "react-router-dom";
+import Login from './screens/Login';
 
 function App() {
   return (
@@ -14,7 +14,9 @@ function App() {
       <div>
          <Routes>
           <Route exact path="/" element={<Home/>}/>
+          <Route exact path="/login" element={<Login/>}/>
          </Routes>
+
       </div>
     </Router>
   )

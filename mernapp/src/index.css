@@ -28,6 +28,7 @@ body {
   place-items: left;
   min-width: 320px;
   min-height: 100vh;
+  font-family:'NHaasGrotestDSPro-65Md' !important;
 }
 
 h1 {
