@@ -8,7 +8,7 @@ export default function Home() {
             <div><Navbar /></div>
 
             <div>
-                <div className="card mt-2" style={{ "width": "18rem", "height": "250px" }}>
+                <div className="card mt-2 " style={{ "width": "21rem", "maxHeight": "230px" }}>
                     <img src="..." className="card-img-top" alt="..." />
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
@@ -34,6 +34,7 @@ export default function Home() {
                     </div>
                 </div></div>
             <div><Footer /></div>
+        
         </div>
     )
 }
