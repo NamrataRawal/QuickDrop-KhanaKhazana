@@ -7,6 +7,7 @@ export default function Home() {
     return (
         <div>
             <div><Navbar /></div>
+            
             <div>
                 <Card />
             </div>
